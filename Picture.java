@@ -94,4 +94,13 @@ public class Picture
             cesped.changeColor("green");
         }
     }
+    
+    /**
+     * Atardecer
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(250);
+        sun.makeInvisible();
+    }
 }
